@@ -1,0 +1,60 @@
+.productImg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+
+.itemContainer {
+    display: flex;
+    margin: 20px 0;
+}
+
+.itemTitle {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.itemDisplay {
+    margin-left: 20px;
+}
+
+.itemDisplay > * {
+    margin: 10px 0;
+}
+
+.quantityEditorDiv {
+    display: flex;
+}
+
+.quantityEditorDiv > button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    font-size: 18px;
+}
+
+.quantityEditorDiv > button:hover {
+    cursor: pointer;
+}
+
+.quantityEditorDiv > * {
+    margin: 0 5px;
+}
+
+.quantityDisplay {
+    width: 40px;
+    text-align: center;
+    outline: none;
+    color: rgb(72, 72, 72);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.quantityDisplay::-webkit-outer-spin-button,
+.quantityDisplay::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.quantityDisplay[type="number"] {
+    -moz-appearance: textfield;
+  }

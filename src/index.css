@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=VT323&display=swap');
+
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Poppins';
+  background-color: rgb(230, 230, 230);
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 70%);
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.product-div {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: fixed;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 70%);
+  }
+}
